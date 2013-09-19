@@ -1,0 +1,170 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/vlsi2_g1/vlsi_ii_t1
+T_opt
+Z1 V`9PB;SRX^_eeKbOcEDiij0
+Z2 04 9 4 work testbench fast 0
+Z3 =2-0023aeada64e-523b6f0a-ac952-24fd
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;10.0c;49
+Z7 d/home/vlsi2_g1/vlsi_ii_t1
+vacknack_out_buffer_4
+Z8 I?AZ60I`>[e6jkdBW8TCAj3
+Z9 VzBEAihSoX^^Q1UzE[JfiF0
+Z10 d/home/vlsi2_g1/vlsi_ii_t1/verilog_code/testbench
+Z11 w1379626735
+Z12 8switch_power_tester_input.v
+Z13 Fswitch_power_tester_input.v
+Z14 L0 254
+Z15 OL;L;10.0c;49
+r1
+31
+Z16 !s108 1379626761.714471
+Z17 !s107 ./switch_power_defines.v|switchpowertlm.v|switch_power_tester_output.v|switch_power_tester_input.v|switch_power_defines.v|settings.v|out_buffer_6.v|in_buffer_2.v|allocator_6x6.v|
+Z18 !s90 -reportprogress|300|-work|../../work|allocator_6x6.v|in_buffer_2.v|out_buffer_6.v|settings.v|switch_power_defines.v|switch_power_tester_input.v|switch_power_tester_output.v|switchpowertlm.v|
+Z19 o-work ../../work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z20 !s100 ^^C:E8eIL0=4F:YzT3`@[0
+!s85 0
+vallocator_6x6
+Z21 !s100 k25@b4Zo@6I:kYA_81LDf0
+Z22 Id:En>FdWoaN65U_A9ARA_1
+Z23 VCcBS4J@Zj@0i=bQ>W2^2D3
+Z24 d/home/vlsi2_g1/vlsi_ii_t1/verilog_code
+Z25 w1379510367
+Z26 8allocator_6x6.v
+Z27 Fallocator_6x6.v
+L0 1
+R15
+r1
+31
+Z28 !s108 1379626762.203038
+Z29 !s107 switch_6x6_2_6.v|out_buffer_6.v|in_buffer_2.v|allocator_6x6.v|
+Z30 !s90 -reportprogress|300|-work|../work|-cover|bscet|allocator_6x6.v|in_buffer_2.v|out_buffer_6.v|switch_6x6_2_6.v|
+Z31 !s102 -cover bscet
+Z32 o-work ../work -cover bscet -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -nocovercells
+!s85 0
+vin_buffer_2
+Z33 !s100 7<_kDJc]RM2FlGdMUjk>A1
+Z34 I`7RHlYB_0L[7;C];1FM_53
+Z35 Vd@EAD_8@_TL<m<@b?_?E62
+R24
+Z36 w1379510368
+Z37 8in_buffer_2.v
+Z38 Fin_buffer_2.v
+L0 1
+R15
+r1
+31
+R28
+R29
+R30
+R31
+R32
+!s85 0
+vout_buffer_6
+Z39 !s100 EMbM1KmSD:4USni_nY:Qj1
+Z40 I=2G_T_O9oP5j6bG29W5:T3
+Z41 V2UAVVKVM1b7g_]OLAHK1n2
+R24
+Z42 w1379510369
+Z43 8out_buffer_6.v
+Z44 Fout_buffer_6.v
+L0 1
+R15
+r1
+31
+R28
+R29
+R30
+R31
+R32
+!s85 0
+vstallgo_out_buffer_4
+Z45 IC_b_>^QYE]1=V;3DT41LZ0
+Z46 VcO_YG2k1>T3f3:L:]3l8>1
+R10
+R11
+R12
+R13
+Z47 L0 397
+R15
+r1
+31
+R16
+R17
+R18
+R19
+Z48 !s100 m^5PFW@nH`8_g_`BP3[:H3
+!s85 0
+vswitch_6x6_2_6
+Z49 In4GeESXg?HJePKRHnQKQa3
+Z50 V^]nL7Ij=?ZTzgFoc@EUHQ3
+R24
+Z51 w1379507065
+Z52 8switch_6x6_2_6.v
+Z53 Fswitch_6x6_2_6.v
+L0 1
+R15
+r1
+31
+Z54 !s108 1379626695.451434
+R29
+R30
+R31
+R32
+Z55 !s100 HZZbO2`?kHMBnn[:?dB4`3
+!s85 0
+vswitch_power_tester_input
+Z56 IEZ4G0:Xf>oBilZae6LA;o0
+Z57 V<i9Wh:PkKn;E2KUM[1eBP0
+R10
+R11
+R12
+R13
+L0 12
+R15
+r1
+31
+R16
+R17
+R18
+R19
+Z58 !s100 o1na]G]45hRiBD[83PlF13
+!s85 0
+vswitch_power_tester_output
+Z59 IoV6cU]DWFmkA7_HRGb?HA2
+Z60 VPG4S:<E2>j[Tccz`2VM1I3
+R10
+Z61 w1379626756
+Z62 8switch_power_tester_output.v
+Z63 Fswitch_power_tester_output.v
+L0 5
+R15
+r1
+31
+R16
+R17
+R18
+R19
+Z64 !s100 ^K;J9G2YF]L]G8Fh>8bnN1
+!s85 0
+vtestbench
+Z65 !s100 PIHX?Bnf_`W:N^Bc?P8?02
+Z66 IFQRoe@:eiVWoHoiXnWDS]3
+Z67 VYI_Uj`7nZJXJ3SJHFFkzU3
+R10
+Z68 w1379507064
+Z69 8switchpowertlm.v
+Z70 Fswitchpowertlm.v
+L0 19
+R15
+r1
+31
+R16
+R17
+R18
+R19
+!s85 0

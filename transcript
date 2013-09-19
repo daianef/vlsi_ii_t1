@@ -1,0 +1,1534 @@
+# //  ModelSim SE-64 10.0c Jul 21 2011 Linux 2.6.18-164.2.1.el5
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+#  
+ls
+# allocator_6x6.v
+# compile_rtl.do
+# in_buffer_2.v
+# modelsim.ini
+# out_buffer_6.v
+# settings.v
+# switch_6x6_2_6.v
+# switch_power_defines.v
+# switch_power_tester_input.v
+# switch_power_tester_output.v
+# switchpowertlm.v
+# transcript
+# verilog_code
+# vsim.wlf
+# work
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# -- Compiling module switch_power_tester_output
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	acknack_out_buffer_4
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# vsim -coverage work.testbench 
+# Loading work.testbench(fast)
+# ** Error: (vsim-3009) [TSCALE] - Module 'stallgo_out_buffer_4' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk1/tester_input[0]/ti/ob
+# ** Error: (vsim-3009) [TSCALE] - Module 'switch_power_tester_output' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk2/tester_output[0]/to
+# Loading work.switch_6x6_2_6(fast)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile_rtl.do PAUSED at line 30
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# 
+# Top level modules:
+# 	switch_power_tester_input
+# 	acknack_out_buffer_4
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_output
+# 
+# Top level modules:
+# 	switch_power_tester_output
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# vsim -coverage work.testbench 
+# Loading work.testbench(fast)
+# ** Error: (vsim-3009) [TSCALE] - Module 'stallgo_out_buffer_4' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk1/tester_input[0]/ti/ob
+# ** Error: (vsim-3009) [TSCALE] - Module 'switch_power_tester_output' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk2/tester_output[0]/to
+# Loading work.switch_6x6_2_6(fast)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile_rtl.do PAUSED at line 45
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# 
+# Top level modules:
+# 	switch_power_tester_input
+# 	acknack_out_buffer_4
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_output
+# 
+# Top level modules:
+# 	switch_power_tester_output
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# vsim -coverage work.testbench 
+# Loading work.testbench(fast)
+# ** Error: (vsim-3009) [TSCALE] - Module 'stallgo_out_buffer_4' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk1/tester_input[0]/ti/ob
+# ** Error: (vsim-3009) [TSCALE] - Module 'switch_power_tester_output' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk2/tester_output[0]/to
+# Loading work.switch_6x6_2_6(fast)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile_rtl.do PAUSED at line 45
+# No wave window is currently open
+# No wave window is currently open
+# No wave window is currently open
+# No wave window is currently open
+# No wave window is currently open
+# No wave window is currently open
+# No wave window is currently open
+# No wave window is currently open
+# No wave window is currently open
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# 
+# Top level modules:
+# 	switch_power_tester_input
+# 	acknack_out_buffer_4
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# vsim -coverage work.testbench 
+# Loading work.testbench(fast)
+# ** Error: (vsim-3009) [TSCALE] - Module 'stallgo_out_buffer_4' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk1/tester_input[0]/ti/ob
+# ** Error: (vsim-3009) [TSCALE] - Module 'switch_power_tester_output' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk2/tester_output[0]/to
+# Loading work.switch_6x6_2_6(fast)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile_rtl.do PAUSED at line 44
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# 
+# Top level modules:
+# 	switch_power_tester_input
+# 	acknack_out_buffer_4
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# vsim -coverage work.testbench 
+# Loading work.testbench(fast)
+# ** Error: (vsim-3009) [TSCALE] - Module 'stallgo_out_buffer_4' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk1/tester_input[0]/ti/ob
+# ** Error: (vsim-3009) [TSCALE] - Module 'switch_power_tester_output' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk2/tester_output[0]/to
+# Loading work.switch_6x6_2_6(fast)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile_rtl.do PAUSED at line 44
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# 
+# Top level modules:
+# 	switch_power_tester_input
+# 	acknack_out_buffer_4
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_output
+# 
+# Top level modules:
+# 	switch_power_tester_output
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# vsim -coverage work.testbench 
+# Loading work.testbench(fast)
+# ** Error: (vsim-3009) [TSCALE] - Module 'stallgo_out_buffer_4' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk1/tester_input[0]/ti/ob
+# ** Error: (vsim-3009) [TSCALE] - Module 'switch_power_tester_output' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk2/tester_output[0]/to
+# Loading work.switch_6x6_2_6(fast)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile_rtl.do PAUSED at line 44
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# vsim -coverage work.testbench 
+# Loading work.testbench(fast)
+# ** Error: (vsim-3009) [TSCALE] - Module 'stallgo_out_buffer_4' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk1/tester_input[0]/ti/ob
+# ** Error: (vsim-3009) [TSCALE] - Module 'switch_power_tester_output' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk2/tester_output[0]/to
+# Loading work.switch_6x6_2_6(fast)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile_rtl.do PAUSED at line 44
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# ** Error: Coverage command may be used in loaded simulation and in viewcov mode only.
+# Error in macro ./compile_rtl.do line 43
+# Coverage command may be used in loaded simulation and in viewcov mode only.
+#     while executing
+# "coverage report -file cover.txt"
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# No Design!
+# ** Error: No Design Loaded!
+# Error in macro ./compile_rtl.do line 53
+# No Design Loaded!
+#     while executing
+# "run 1 ms"
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# ** Error: No Design Loaded!
+# Error in macro ./compile_rtl.do line 58
+# No Design Loaded!
+#     while executing
+# "restartCmd -f"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval restartCmd $args"
+#     (procedure "restart" line 18)
+#     invoked from within
+# "restart -f"
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# vsim -coverage work.testbench 
+# Loading work.testbench(fast)
+# ** Error: (vsim-3009) [TSCALE] - Module 'stallgo_out_buffer_4' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk1/tester_input[0]/ti/ob
+# ** Error: (vsim-3009) [TSCALE] - Module 'switch_power_tester_output' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk2/tester_output[0]/to
+# Loading work.switch_6x6_2_6(fast)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile_rtl.do PAUSED at line 40
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# ** Error: (vsim-3400) The default VCD output file "pid.vcd" is already opened. Use the 'vcd files' command to create multiple VCD files.
+# Error in macro ./compile_rtl.do line 47
+# ** Error: (vsim-3400) The default VCD output file "pid.vcd" is already opened. Use the 'vcd files' command to create multiple VCD files.
+# 
+#     while executing
+# "vcd file pid.vcd"
+vcd checkpoint 
+# ** Error: (vsim-VCD-3453) VCD dumping is not enabled for file "pid.vcd".
+restart -f
+# No Design Loaded!
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# ** Error: (vsim-3400) The default VCD output file "pid.vcd" is already opened. Use the 'vcd files' command to create multiple VCD files.
+# Error in macro ./compile_rtl.do line 47
+# ** Error: (vsim-3400) The default VCD output file "pid.vcd" is already opened. Use the 'vcd files' command to create multiple VCD files.
+# 
+#     while executing
+# "vcd file pid.vcd"
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# 
+# Top level modules:
+# 	switch_power_tester_input
+# 	acknack_out_buffer_4
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_output
+# 
+# Top level modules:
+# 	switch_power_tester_output
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# ** Error: (vsim-3400) The default VCD output file "pid.vcd" is already opened. Use the 'vcd files' command to create multiple VCD files.
+# Error in macro ./compile_rtl.do line 47
+# ** Error: (vsim-3400) The default VCD output file "pid.vcd" is already opened. Use the 'vcd files' command to create multiple VCD files.
+# 
+#     while executing
+# "vcd file pid.vcd"
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# 
+# Top level modules:
+# 	switch_power_tester_input
+# 	acknack_out_buffer_4
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_output
+# 
+# Top level modules:
+# 	switch_power_tester_output
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# 
+# Top level modules:
+# 	switch_power_tester_input
+# 	acknack_out_buffer_4
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_output
+# 
+# Top level modules:
+# 	switch_power_tester_output
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# vsim -coverage work.testbench 
+# Loading work.testbench(fast)
+# ** Error: (vsim-3009) [TSCALE] - Module 'stallgo_out_buffer_4' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk1/tester_input[0]/ti/ob
+# ** Error: (vsim-3009) [TSCALE] - Module 'switch_power_tester_output' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk2/tester_output[0]/to
+# Loading work.switch_6x6_2_6(fast)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile_rtl.do PAUSED at line 40
+verror 3009
+# 
+# vsim Message # 3009:
+# A module without a `timescale directive in effect, and without
+# explicit timeunit and timeprecision declarations, uses the
+# simulator resolution limit for both its time unit and time
+# precision. This may result in incorrect delays and unintentional
+# behavior in the module. Beware of simulator performance impact,
+# and consider using the vlog -timescale or vopt -timescale options
+# as a workaround. This message can be downgraded to a warning with
+# -warning 3009, suppressed with -suppress 3009, or suppressed
+# with +nowarnTSCALE.
+# [DOC: ModelSim User's Manual - Verilog Simulation Chapter]
+# 
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# 
+# Top level modules:
+# 	switch_power_tester_input
+# 	acknack_out_buffer_4
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_output
+# 
+# Top level modules:
+# 	switch_power_tester_output
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# vsim -coverage work.testbench 
+# Loading work.testbench(fast)
+# ** Error: (vsim-3009) [TSCALE] - Module 'stallgo_out_buffer_4' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk1/tester_input[0]/ti/ob
+# ** Error: (vsim-3009) [TSCALE] - Module 'switch_power_tester_output' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk2/tester_output[0]/to
+# Loading work.switch_6x6_2_6(fast)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile_rtl.do PAUSED at line 40
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# 
+# Top level modules:
+# 	switch_power_tester_input
+# 	acknack_out_buffer_4
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_output
+# 
+# Top level modules:
+# 	switch_power_tester_output
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# vsim -coverage work.testbench 
+# Loading work.testbench(fast)
+# ** Error: (vsim-3009) [TSCALE] - Module 'stallgo_out_buffer_4' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk1/tester_input[0]/ti/ob
+# ** Error: (vsim-3009) [TSCALE] - Module 'switch_power_tester_output' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk2/tester_output[0]/to
+# Loading work.switch_6x6_2_6(fast)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile_rtl.do PAUSED at line 40
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# 
+# Top level modules:
+# 	switch_power_tester_input
+# 	acknack_out_buffer_4
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_output
+# 
+# Top level modules:
+# 	switch_power_tester_output
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# vsim -coverage work.testbench 
+# Loading work.testbench(fast)
+# ** Error: (vsim-3009) [TSCALE] - Module 'stallgo_out_buffer_4' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk1/tester_input[0]/ti/ob
+# ** Error: (vsim-3009) [TSCALE] - Module 'switch_power_tester_output' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk2/tester_output[0]/to
+# Loading work.switch_6x6_2_6(fast)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile_rtl.do PAUSED at line 40
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# 
+# Top level modules:
+# 	switch_power_tester_input
+# 	acknack_out_buffer_4
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_output
+# 
+# Top level modules:
+# 	switch_power_tester_output
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# vsim -coverage work.testbench 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.testbench(fast)
+# ** Error: (vsim-3009) [TSCALE] - Module 'stallgo_out_buffer_4' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk1/tester_input[0]/ti/ob
+# Loading work.switch_6x6_2_6(fast)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile_rtl.do PAUSED at line 40
+restart -f
+# No Design Loaded!
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# 
+# Top level modules:
+# 	allocator_6x6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module in_buffer_2
+# 
+# Top level modules:
+# 	in_buffer_2
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module out_buffer_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	switch_6x6_2_6
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# 
+# Top level modules:
+# 	switch_power_tester_input
+# 	acknack_out_buffer_4
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module switch_power_tester_output
+# 
+# Top level modules:
+# 	switch_power_tester_output
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# vsim -coverage work.testbench 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.testbench(fast)
+# Loading work.switch_6x6_2_6(fast)
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# ** Error: Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+# Error in macro ./compile_rtl.do line 17
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+#     while executing
+# "cd verilog_code"
+ls
+# allocator_6x6.v
+# compile_rtl.do
+# compile_rtl.do~
+# in_buffer_2.v
+# modelsim.ini
+# out_buffer_6.v
+# pid.vcd
+# settings.v
+# switch_6x6_2_6.v
+# switch_power_defines.v
+# switch_power_tester_input.v
+# switch_power_tester_output.v
+# switchpowertlm.v
+# testbench.v
+# transcript
+# verilog_code
+# vsim.wlf
+# work
+ls verilog_code
+# allocator_6x6.v
+# in_buffer_2.v
+# out_buffer_6.v
+# settings.v
+# switch_6x6_2_6.v
+# switch_power_defines.v
+# switch_power_tester_input.v
+# switch_power_tester_output.v
+# switchpowertlm.v
+# testbench
+ls verilog_code/testbench
+# allocator_6x6.v
+# in_buffer_2.v
+# out_buffer_6.v
+# settings.v
+# switch_power_defines.v
+# switch_power_tester_input.v
+# switch_power_tester_output.v
+# switchpowertlm.v
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# ** Error: Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+# Error in macro ./compile_rtl.do line 17
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+#     while executing
+# "cd verilog_code"
+quit -sim
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# reading /soft64/mentor/ferramentas/modelsim/10.0c/modeltech/linux_x86_64/../modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# -- Compiling module switch_power_tester_output
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	acknack_out_buffer_4
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# -- Compiling module switch_power_tester_output
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	allocator_6x6
+# 	in_buffer_2
+# 	out_buffer_6
+# 	acknack_out_buffer_4
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# ** Error: (vlog-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# ** Error: Library work not found.
+# ** Error: Verilog Compiler exiting
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.0c/modeltech/linux_x86_64/vlog failed.
+# Error in macro ./compile_rtl.do line 36
+# /soft64/mentor/ferramentas/modelsim/10.0c/modeltech/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -cover bscet allocator_6x6.v in_buffer_2.v out_buffer_6.v switch_6x6_2_6.v"
+do compile_rtl.do
+# Cannot open macro file: compile_rtl.do
+do compile_rtl.do
+# Cannot open macro file: compile_rtl.do
+ls
+# allocator_6x6.v
+# in_buffer_2.v
+# out_buffer_6.v
+# settings.v
+# switch_6x6_2_6.v
+# switch_power_defines.v
+# switch_power_tester_input.v
+# switch_power_tester_output.v
+# switchpowertlm.v
+# testbench
+cd ..
+# reading modelsim.ini
+ls
+# allocator_6x6.v
+# compile_rtl.do
+# compile_rtl.do~
+# in_buffer_2.v
+# modelsim.ini
+# out_buffer_6.v
+# pid.vcd
+# settings.v
+# switch_6x6_2_6.v
+# switch_power_defines.v
+# switch_power_tester_input.v
+# switch_power_tester_output.v
+# switchpowertlm.v
+# testbench.v
+# transcript
+# verilog_code
+# vsim.wlf
+# work
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# reading /soft64/mentor/ferramentas/modelsim/10.0c/modeltech/linux_x86_64/../modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# -- Compiling module switch_power_tester_output
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	acknack_out_buffer_4
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# -- Compiling module switch_power_tester_output
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	allocator_6x6
+# 	in_buffer_2
+# 	out_buffer_6
+# 	acknack_out_buffer_4
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# reading modelsim.ini
+# vsim -coverage work.testbench 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.testbench(fast)
+# ** Error: (vsim-3009) [TSCALE] - Module 'stallgo_out_buffer_4' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk1/tester_input[0]/ti/ob
+# ** Error: (vsim-3009) [TSCALE] - Module 'switch_power_tester_output' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#         Region: /testbench/genblk2/tester_output[0]/to
+# Loading work.switch_6x6_2_6(fast)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile_rtl.do PAUSED at line 40
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# reading /soft64/mentor/ferramentas/modelsim/10.0c/modeltech/linux_x86_64/../modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# -- Compiling module switch_power_tester_output
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	acknack_out_buffer_4
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# -- Compiling module switch_power_tester_output
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	allocator_6x6
+# 	in_buffer_2
+# 	out_buffer_6
+# 	acknack_out_buffer_4
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# reading modelsim.ini
+# vsim -coverage work.testbench 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.testbench(fast)
+# Loading work.switch_6x6_2_6(fast)
+quit -sim
+do compile_rtl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# reading /soft64/mentor/ferramentas/modelsim/10.0c/modeltech/linux_x86_64/../modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# -- Compiling module switch_power_tester_output
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	acknack_out_buffer_4
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_power_tester_input
+# -- Compiling module acknack_out_buffer_4
+# -- Compiling module stallgo_out_buffer_4
+# -- Compiling module switch_power_tester_output
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	allocator_6x6
+# 	in_buffer_2
+# 	out_buffer_6
+# 	acknack_out_buffer_4
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module allocator_6x6
+# -- Compiling module in_buffer_2
+# -- Compiling module out_buffer_6
+# -- Compiling module switch_6x6_2_6
+# 
+# Top level modules:
+# 	out_buffer_6
+# 	switch_6x6_2_6
+# reading modelsim.ini
+# vsim -coverage work.testbench 
+# Loading work.testbench(fast)
+# Loading work.switch_6x6_2_6(fast)
+# Closing VCD file "pid.vcd"
+# Loading work.testbench(fast)
+# Loading work.switch_6x6_2_6(fast)
